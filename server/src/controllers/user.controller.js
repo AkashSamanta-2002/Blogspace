@@ -1,6 +1,6 @@
 import { User } from "../models/user.model.js";
 import { generateToken } from "../services/jwt.service.js";
-import { asynchandler } from "../utils/asyncHandler.js";
+import { asynchandler } from "../utils/asyncHandler.util.js";
 import { errorhandler } from "../utils/errorHandler.util.js";
 import { responsehandler } from "../utils/responseHandler.js";
 import generator from "generate-password";
