@@ -1,4 +1,4 @@
-import { asynchandler } from "../utils/asynchandler.util.js";
+import { asynchandler } from "../utils/asyncHandler.util.js";
 import { errorhandler } from "../utils/errorHandler.util.js";
 import { Category } from "../models/category.model.js";
 import { responsehandler } from "../utils/responseHandler.util.js";

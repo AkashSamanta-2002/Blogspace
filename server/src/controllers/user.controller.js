@@ -1,8 +1,8 @@
 import { User } from "../models/user.model.js";
 import { generateToken } from "../services/jwt.service.js";
-import { asynchandler } from "../utils/asynchandler.util.js";
+import { asynchandler } from "../utils/asyncHandler.js";
 import { errorhandler } from "../utils/errorHandler.util.js";
-import { responsehandler } from "../utils/responseHandler.util.js";
+import { responsehandler } from "../utils/responseHandler.js";
 import generator from "generate-password";
 import bcrypt from "bcryptjs";
 import { uploadOnCloudinary } from '../services/cloudinary.service.js'
